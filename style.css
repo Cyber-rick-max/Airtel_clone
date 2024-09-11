@@ -114,8 +114,8 @@
 .balance-checker button:hover,
 .sms button:hover,
 .user-information button:hover {
-    background-color: #ff383b;
-    color: black;
+    background: rgb(221,112,125);
+    background: linear-gradient(0deg, rgba(221,112,125,1) 0%, rgba(255,206,206,1) 48%, rgba(255,255,255,1) 99%, rgba(255,0,0,1) 100%);
 }
 
 .qrcode{
