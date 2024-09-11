@@ -50,6 +50,18 @@
 .sidebar{
     transform: translate(55px,-40px);
 }
+.logout:hover{
+    color:#E52128;
+    cursor: pointer;
+}
+.english:hover{
+    color:#E52128;
+    cursor: pointer;
+}
+.french:hover{
+    color:#E52128;
+    cursor: pointer;
+}
 
 .body{
     width: 60%;
@@ -78,6 +90,7 @@
     flex-direction: column;
     gap: 15px;
     transform: translateY(-30px);
+    
 }
 
 .balance-checker button,
@@ -93,12 +106,15 @@
     outline: none;
     width: 300px;
     box-sizing: border-box;
+    background: #e0e0e0;
+    box-shadow: 2px 2px 0px #acacac,
+                -2px -2px 0px #f6f6f6;
 }
 
 .balance-checker button:hover,
 .sms button:hover,
 .user-information button:hover {
-    background-color: #E52128;
+    background-color: #ff383b;
     color: black;
 }
 
@@ -122,8 +138,9 @@
     transform: translateY(-5px);
 }
 .top-bar h2{
-    transform: translateY(-20px);
-    background-color: #fcbebe; 
+    transform: translateY(-25px);
+    background: rgb(221,112,125);
+    background: linear-gradient(0deg, rgba(221,112,125,1) 0%, rgba(255,206,206,1) 48%, rgba(255,255,255,1) 99%, rgba(255,0,0,1) 100%);
     color: #E52128;
     font-weight: 900;
     padding: 10px 30px;
